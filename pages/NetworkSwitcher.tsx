@@ -40,8 +40,6 @@ export const NetworkSwitcher = () => {
     [library]
   );
 
-  console.log("NetworkSwitcher", { chainId, library, account, active });
-
   if (!library) return null;
 
   return (
