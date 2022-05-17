@@ -292,13 +292,14 @@ function App() {
         }}
       >
         {Object.keys(connectorsByName)
+          // for this example, keep only Injected (metamask) and Talisman
           .filter((key) => ["Injected", "Talisman"].includes(key))
           .map((name) => {
             const currentConnector = connectorsByName[name];
             const activating = currentConnector === activatingConnector;
             const connected = currentConnector === connector;
             const disabled =
-              // !triedEager ||
+              // (!triedEager) ||
               !!activatingConnector || connected || !!error;
 
             return (

@@ -4,12 +4,12 @@ import { useCallback } from "react";
 import { talismanChains } from "../talisman/talismanChains";
 
 export const NetworkSwitcher = () => {
-  const { chainId, library, account, active } = useWeb3React<Web3Provider>();
+  const { chainId, library } = useWeb3React<Web3Provider>();
 
   const switchNetwork = useCallback(
     (network) => async () => {
       try {
-        const res = await library?.send("wallet_switchEthereumChain", [
+        await library?.send("wallet_switchEthereumChain", [
           { chainId: "0x" + network.id.toString(16) },
         ]);
       } catch (err) {
