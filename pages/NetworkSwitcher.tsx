@@ -59,8 +59,8 @@ export const NetworkSwitcher = () => {
       </p>
       <p>
         You may add any other EVM network by toggling the "Allow custom
-        networks" in Talisman option. Toggling it off and on will clear the
-        custom networks list.
+        networks" in Talisman settings - extension options. Toggling it off and
+        on will clear the custom networks list.
       </p>
       <p>
         To reset authorized accounts for a given dapp, browse Talisman settings
