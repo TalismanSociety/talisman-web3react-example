@@ -17,6 +17,8 @@ Please let us know if you need any assistance while integrating Talisman into yo
 
 ## Run the project
 
+Prerequisite : Node.js v14
+
 ```bash
 # install dependencies
 yarn
