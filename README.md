@@ -1,8 +1,8 @@
 # Web3React - Talisman Integration
 
-This repository demonstrate how to integrate talisman with web3react.
+This repository demonstrate how to integrate the Talisman extension with web3react.
 
-It is a copy of the [web3react v6 example project](https://github.com/NoahZinsmeister/web3-react/tree/v6/example), with the following changes :
+It is a copy of the [web3react v6 example project](https://github.com/NoahZinsmeister/web3-react/tree/v6/example), with the following changes:
 
 - added TalismanConnector which can be used the same way as web3react's InjectedConnector.
 - removed other connectors from the home page's connect options
@@ -13,7 +13,7 @@ InjectedConnector uses any ethereum provider injected in `window.ethereum`, whic
 TalismanConnector uses exclusively Talisman ethereum provider which is injected in `window.talismanEth` instead. It is [EIP 1193](https://eips.ethereum.org/EIPS/eip-1193) compliant.
 We do not inject in `window.ethereum` unless it's empty, as we think most users will want to keep using both Talisman and Metamask.
 
-Please let us know if you need any assistance while integrating Talisman into your dapp.
+Please let us know if you need any assistance while integrating Talisman into your dapp, by using the support channels in [the Talisman discord server](https://discord.gg/AmHeqqCNkJ).
 
 ## Run the project
 
