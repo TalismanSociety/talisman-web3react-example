@@ -1,5 +1,9 @@
 # Web3React - Talisman Integration
 
+> ⚠️ **This repository is archived and no longer maintained.**
+>
+> Do not use it in new projects. The code here is kept for reference only and will not receive updates, bug fixes or security patches.
+
 This repository acts a reference on how to integrate the Talisman extension with web3react.
 
 It is a copy of the [web3react v6 example project](https://github.com/NoahZinsmeister/web3-react/tree/v6/example), with the following changes:
